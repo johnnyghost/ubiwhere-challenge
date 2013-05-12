@@ -1,0 +1,210 @@
+body {
+	background-color: #dedede;
+}
+
+ul li{
+	list-style-type: none;
+	clear: both;
+	padding: 10px 0 10px 10px;
+	overflow: hidden;
+	height: 58px;
+
+	-webkit-transition: all 0.35s linear;
+	-moz-transition: all 0.35s linear;
+	-o-transition: all 0.35s linear;
+	transition: all 0.35s linear;
+}
+
+.header {
+	height: 100px;
+	background: #34495e;
+	z-index: 1;
+	position: relative;
+}
+
+.header .logo {
+	padding: 29px 0 0 12px;
+	color: #1abc9c;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 1px 1px 1px black;
+	font-weight: bold;
+	float: left;
+}
+
+.header .add-btn {
+	width:30px;
+	height:30px;
+	float:right;
+	background: url('../images/icons/add.png');
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	margin-right: 12px;
+	margin-top: 37px;
+
+}
+
+.header .add-btn.hover {
+	width:30px;
+	height:30px;
+	float:right;
+	background: url('../images/icons/add-hover.png');
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	margin-right: 12px;
+	margin-top: 37px;
+
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	-webkit-transition: all 0.35s linear;
+	-moz-transition: all 0.35s linear;
+	-o-transition: all 0.35s linear;
+	transition: all 0.35s linear;
+}
+.insert-user {
+	z-index: -1000;
+	margin-top: -55px;
+	width: 100%;
+	float: left;
+}
+
+li .avatar {
+	border-radius: 45px;
+    display: block;
+    height: 38px;
+    float: left;
+    border: 4px solid rgba(0, 0, 0, 0.15);
+}
+
+li .avatar img {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 45px; /* must be width + border */
+    width: 30px;
+    height: 30px;
+}
+
+li .name {
+	float: left;
+	padding: 3px 0 0 12px;
+	color: rgb(94, 94, 94);
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+li .buttons {
+	float:right;
+}
+
+.remove-btn {
+	width:30px;
+	height:30px;
+	float:right;
+	background: url('../images/icons/remove.png');
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+
+.remove-btn.hover {
+	width:30px;
+	height:30px;
+	float:right;
+	background: url('../images/icons/remove-hover.png');
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	margin-right: 12px;
+	margin-top: 5px;
+
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	-webkit-transition: all 0.35s linear;
+	-moz-transition: all 0.35s linear;
+	-o-transition: all 0.35s linear;
+	transition: all 0.35s linear;
+}
+
+.even {
+	background: rgb(207, 207, 207);
+}
+
+
+/* COMPONENTS */
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #34495e;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #34495e;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #34495e;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #34495e;
+}
+
+h2 {
+	font-size: 2em;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 12px;
+	font-weight: bolder;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+	text-align: center;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus,
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus,
+input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+	background: #2C3E50;
+	border: none;
+
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	outline: none;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"],
+input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+
+	background-color: #2C3E50;
+	font-family: inherit;
+	border: none;
+
+	font-weight: bold;
+	text-transform: uppercase;
+
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+
+	color: #ECF0F1;
+	display: block;
+	font-size: 30px;
+	margin: 0;
+	padding: 12px;
+	height: 55px;
+	width: 100%;
+
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+
+}
