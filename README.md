@@ -1,6 +1,6 @@
 # My awesome app
 
-[demo](http://iknowaghost.com/dev/ubiwhere-challenge/)
+You can see the [demo](http://iknowaghost.com/dev/ubiwhere-challenge/).
 
 # Installation
 
