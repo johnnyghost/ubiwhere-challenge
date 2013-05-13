@@ -5,3 +5,5 @@ npm-debug.*
 
 ######################
 /vendor
+
+.DS_Store
